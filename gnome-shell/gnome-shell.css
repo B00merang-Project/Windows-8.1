@@ -526,7 +526,7 @@ StScrollBar {
   -arrow-border-width: 1px;
   -arrow-border-color: #d1d1d1;
   -arrow-base: 24px;
-  -arrow-rise: 11px;
+  -arrow-rise: 0px;
   -arrow-box-shadow: 0 1px 3px black; }
 
 .popup-separator-menu-item {
