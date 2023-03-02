@@ -1137,26 +1137,27 @@ menu, .menu {
       menu menuitem accelerator:disabled, .menu menuitem accelerator:disabled {
         color: #787878; }
 
-menubar, .menubar {
-  padding: 0;
+menubar {
+  padding: 0px;
   border-style: none;
-  background-color: #F0F0F0;
-  color: #000000; }
-  menubar:backdrop, .menubar:backdrop {
+  color: #000000;
+  background-color: #F0F0F0; }
+  menubar:backdrop {
     color: #000000;
     background-color: #F0F0F0; }
-  menubar > menuitem, .menubar > menuitem {
+  menubar > item {
     padding: 3px 5px;
+    min-height: 12px;
     border: none;
     color: #000000;
     background-color: transparent; }
-    menubar > menuitem:hover, .menubar > menuitem:hover {
+    menubar > item:selected {
       color: #000000;
       background-color: #CCE8FF; }
-    menubar > menuitem:disabled, .menubar > menuitem:disabled {
+    menubar > item:disabled {
       color: #787878;
       background-color: transparent; }
-    menubar > menuitem:backdrop, .menubar > menuitem:backdrop {
+    menubar > item:backdrop {
       color: #000000;
       background-color: transparent; }
 
@@ -1420,6 +1421,10 @@ check, radio {
   margin: 4px;
   min-width: 13px;
   min-height: 13px;
+  border: none;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
   transition: 0.2s; }
 
 popover.menu check,
