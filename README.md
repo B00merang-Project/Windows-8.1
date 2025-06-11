@@ -4,7 +4,7 @@
 GTK theme based on the Windows 8.1 appearance
 
 ### Preview
-![win-8](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-12-18-21-36-orig-orig_2_orig.png)
+![win-8](https://b00merang-project.github.io/resources/screenshots/windows-8.1/blue_1.png)
 
 ### Supported platforms
 - Any GTK-based desktop
